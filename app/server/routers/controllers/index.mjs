@@ -1,0 +1,15 @@
+import auth from './auth-controller.mjs'
+import comment from './comment-controller.mjs'
+import project from './project-controller.mjs'
+import task from './task-controller.mjs'
+import user from './user-controller.mjs'
+import taskStatus from './task-status-controller.mjs'
+
+export default {
+  auth,
+  comment,
+  project,
+  task,
+  user,
+  taskStatus
+}
